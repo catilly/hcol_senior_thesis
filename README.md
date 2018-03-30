@@ -43,13 +43,13 @@ In this demo, we will run and evaluate eight methods -- top SNP (also called mar
 
 Before we begin, note that this demo requires
 
-- **R** (https://www.r-project.org/, v3.4.1 or later), with the following packages installed:
+- **R** (https://www.r-project.org, v3.4.1 or later), with the following packages installed:
     - snpStats (https://www.bioconductor.org/packages/release/bioc/html/snpStats.html, v3.6 or later)
     - glmnet (https://www.jstatsoft.org/article/view/v033i01, v2.0-13 or later)
     - plyr (https://cran.r-project.org/web/packages/plyr/index.html, v1.8.4 or later)
     - dplyr (https://github.com/hadley/plyr, v0.7.4 or later)
     - reshape2 (https://github.com/hadley/reshape, v1.4.3 or later)
-    - MASS (http://www.stats.ox.ac.uk/pub/MASS4/, v7.3-49 or later)
+    - MASS (http://www.stats.ox.ac.uk/pub/MASS4, v7.3-49 or later)
 
 - **plink** (https://www.cog-genomics.org/plink2, v1.90 or later)
 
