@@ -1,0 +1,26 @@
+PLINK v1.90b5.2 64-bit (9 Jan 2018)
+Options in effect:
+  --allow-no-sex
+  --bfile ./example_data/testN2k
+  --out ./output/out.predict
+  --score ./output/out.betaRecal
+
+Hostname: rcsgc-s1
+Working directory: /bcb/agusevlab/cali/XP-BLUP_v0.3
+Start time: Mon Jan 15 05:44:20 2018
+
+Random number seed: 1516013060
+24029 MB RAM detected; reserving 12014 MB for main workspace.
+35830 variants loaded from .bim file.
+2000 people (0 males, 0 females, 2000 ambiguous) loaded from .fam.
+Ambiguous sex IDs written to ./output/out.predict.nosex .
+2000 phenotype values loaded from .fam.
+Using 1 thread (no multithreaded calculations invoked).
+Before main variant filters, 2000 founders and 0 nonfounders present.
+Calculating allele frequencies... done.
+35830 variants and 2000 people pass filters and QC.
+Phenotype data is quantitative.
+--score: 35830 valid predictors loaded.
+--score: Results written to ./output/out.predict.profile .
+
+End time: Mon Jan 15 05:44:21 2018
