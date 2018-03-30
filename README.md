@@ -11,7 +11,7 @@ This directory contains the following sub-directories and files:
 - **Data**: Contains preprocessed data for chromosome 21.
     - **Data/C1_lists**: Contains SNP lists for chr21 genes for use in XP-BLUP and XP-EN. These were obtained by running association tests in the EUR data using the plink --assoc command and a p-value cutoff of 1.5e-4.
     - **Data/Expression**: Contains Geuvadis expression data from Lappalainen et al. (2013). The data has been filtered to include only chr21 genes for which Lappalainen et al. discovered a significant association in either EUR or YRI.
-    - **Data/Genotype**: Contains 1000 Genomes ch21 genotype data (The 1000 Genomes Project Consortium, 2012). Duplicate SNPs have been removed. 1000G.POP records the population of each individual in the dataset.
+    - **Data/Genotype**: Contains 1000 Genomes chr21 genotype data (The 1000 Genomes Project Consortium, 2012). Duplicate SNPs have been removed. 1000G.POP records the population of each individual in the dataset.
 
 - **out**: An empty directory where the demo scripts will store output files.
 
