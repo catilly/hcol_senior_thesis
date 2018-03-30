@@ -2,7 +2,7 @@
 
 Last updated: April 1, 2018, by Catherine Li.
 
-This repository contains supplementary code for my honors undergraduate thesis, which was advised by Alexander Gusev and submitted to the Harvard Statistics Department. Here, we document custom functions and scripts that enable data processing, prediction, and simulation. We also set up a walkthrough for evaluating eight methods -- top SNP, polygenic risk score, BLUP, lasso, EN, combined EN, XP-BLUP, and XP-EN -- on 1000 Genomes/Geuvadis data from chromosome 21.
+This repository contains supplementary code for my honors undergraduate thesis, which was advised by Alexander Gusev and submitted to the Harvard Statistics Department. Here, we document custom functions and scripts that enable preprocessing, prediction, and simulation for genotype and gene expression data. We also set up a walkthrough for evaluating eight methods -- top SNP, polygenic risk score, BLUP, lasso, EN, combined EN, XP-BLUP, and XP-EN -- on 1000 Genomes/Geuvadis data from chromosome 21.
 
 ## Description of Contents
 
