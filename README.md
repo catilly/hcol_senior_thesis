@@ -8,6 +8,8 @@ This repository contains supplementary code for my honors undergraduate thesis, 
 
 This directory contains the following sub-directories and files:
 
+- **simulate_expression_prediction_v2.R**: A set of custom R functions that are used throughout our study, documented in detail. This contains processing and model-fitting functions (including our novel method XP-EN) employed in the demo, but it also contains functions for simulating gene expression.
+
 - **Data**: Contains preprocessed data for chromosome 21.
     - **Data/C1_lists**: Contains SNP lists for chr21 genes for use in XP-BLUP and XP-EN. These were obtained by running association tests in the EUR data using the plink --assoc command and a p-value cutoff of 1.5e-4.
     - **Data/Expression**: Contains Geuvadis expression data from Lappalainen et al. (2013). The data has been filtered to include only chr21 genes for which Lappalainen et al. discovered a significant association in either EUR or YRI.
@@ -31,8 +33,6 @@ This directory contains the following sub-directories and files:
 
 - **run_XP-BLUP.sh**: A script for fitting and evaluating XP-BLUP in YRI.
 
-- **simulate_expression_prediction_v2.R**: A set of custom R functions that are used throughout our study, documented in detail. This contains processing and model-fitting functions (including our novel method XP-EN) employed in the above scripts, but it also contains functions for simulating gene expression.
-
 - **XP-BLUP_helper.R**: A script that generates appropriately formatted input files for XP-BLUP.
 
 ## Demo: Evaluating Expression Prediction Methods in Chromosome 21
@@ -45,7 +45,7 @@ TODO
 
 Before we begin, note that this demo requires
 
-- **R** v.3.4.1 or above (https://www.r-project.org/), with the following packages installed:
+- **R** (v.3.4.1 or above, https://www.r-project.org/), with the following packages installed:
     - snpStats
     - glmnet
     - plyr
