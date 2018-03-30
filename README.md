@@ -15,7 +15,7 @@ This directory contains the following sub-directories and files:
     - **Data/Expression**: Contains Geuvadis expression data from Lappalainen et al. (2013). The data has been filtered to include only chr21 genes for which Lappalainen et al. discovered a significant association in either EUR or YRI.
     - **Data/Genotype**: Contains 1000 Genomes ch21 genotype data. Duplicate SNPs have been removed. 1000G.POP records the population of each individual in the dataset.
 
-- **out**: An empty directory where output files will be stored.
+- **out**: An empty directory where the demo scripts will store output files.
 
 - **XP-BLUP_v0.3**: Contains files and scripts released by Coram et al. (2017) that implement XP-BLUP. Aside from **XP-BLUP_v0.3/xpblup-CL.sh**, which is a slightly modified version of the original release that makes parallelization easier, all of these files can be obtained from http://med.stanford.edu/tanglab/software/XPBLUP/XPBLUP.html.
 
