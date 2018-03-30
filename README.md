@@ -25,7 +25,7 @@ This directory contains the following sub-directories and files:
 
 - **predict_XP-EN.R**: A script for fitting and evaluating XP-EN in YRI.
 
-- **process_files_for_plotting.R**: Used in **aggregate.sh** to process files into a format that can easily be visualized in ggplot2.
+- **process_files_for_plotting.R**: Used in **aggregate.sh** to process files into a format that can easily be visualized.
 
 - **run_all.sh**: A script that runs all eight methods on the chr21 data.
 
