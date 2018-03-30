@@ -63,12 +63,12 @@ After downloading all of the requisite software, move into this directory and ru
 ```
 sh run_all.sh [R_LOC] [PLINK_LOC] [GCTA_LOC]
 ```
-from the Unix command line. R_LOC, PLINK_LOC, and GCTA_LOC should be the paths to R, plink, and gcta respectively in your system. This script will run all eight methods and output files into the out/ directory. It can take a while, so you may want to split up the script and parallelize it on a computing cluster, or simply comment out the methods that are not of interest.
+from the Unix command line. R_LOC, PLINK_LOC, and GCTA_LOC should be the paths to R, plink, and gcta respectively in your system. This script will run all eight methods and output files into the empty out directory. It can take a while, so you may want to split up the script and parallelize it on a computing cluster, or simply comment out the methods that are not of interest.
 
 Once this script is finished running, the output files can be concatenated and processed by typing
 ```
 sh aggregate.sh [METHOD] [DIR]
 ```
-where DIR is the location of the files you plan to aggregate and METHOD is method for which you are aggregating prediction scores (one of marginal, PRS, BLUP, lasso, EN, XPBLUP, or XPEN -- this argument should match the naming scheme of the files in DIR).
+where DIR is the location of the files you plan to aggregate, and METHOD is method for which you are aggregating prediction scores (one of marginal, PRS, BLUP, lasso, EN, XPBLUP, or XPEN -- this argument should match the naming scheme of the files in DIR).
 
 You resulting files, e.g. "long.METHOD_XPBLUP.out," contain the predictive correlation achieved by a particular method on each gene in chromosome 21. They can be loaded into the data analysis software of your choice and further explored.
