@@ -13,11 +13,11 @@ This directory contains the following sub-directories and files:
 - **Data**: Contains preprocessed data for chromosome 21.
     - **Data/C1_lists**: Contains SNP lists for chr21 genes for use in XP-BLUP and XP-EN. These were obtained by running association tests in the EUR data using the plink --assoc command and a p-value cutoff of 1.5e-4.
     - **Data/Expression**: Contains Geuvadis expression data from Lappalainen et al. (2013). The data has been filtered to include only chr21 genes for which Lappalainen et al. discovered a significant association in either EUR or YRI.
-    - **Data/Genotype**: Contains 1000 Genomes ch21 genotype data. Duplicate SNPs have been removed. 1000G.POP records the population of each individual in the dataset.
+    - **Data/Genotype**: Contains 1000 Genomes ch21 genotype data (The 1000 Genomes Project Consortium, 2012). Duplicate SNPs have been removed. 1000G.POP records the population of each individual in the dataset.
 
 - **out**: An empty directory where the demo scripts will store output files.
 
-- **XP-BLUP_v0.3**: Contains files and scripts released by Coram et al. (2017) that implement XP-BLUP. Aside from **XP-BLUP_v0.3/xpblup-CL.sh**, which is a slightly modified version of the original release that makes parallelization easier, all of these files can be obtained from http://med.stanford.edu/tanglab/software/XPBLUP/XPBLUP.html.
+- **XP-BLUP_v0.3**: Contains files and scripts released by Coram et al. (2017) that implement XP-BLUP. Aside from **XP-BLUP_v0.3/xpblup-CL.sh**, which is a slightly modified version of the original release that makes parallelization easier, all of these files were obtained from http://med.stanford.edu/tanglab/software/XPBLUP/XPBLUP.html.
 
 - **aggregate.sh**: A script for aggregating prediction scores across genes.
 
@@ -41,21 +41,19 @@ In this demo, we will run and evaluate eight methods -- top SNP (also called mar
 
 ### Prerequisites
 
-TODO
-
 Before we begin, note that this demo requires
 
-- **R** (v.3.4.1 or above, https://www.r-project.org/), with the following packages installed:
-    - snpStats
-    - glmnet
-    - plyr
-    - dplyr
-    - reshape2
-    - MASS
+- **R** (https://www.r-project.org/, v3.4.1 or later), with the following packages installed:
+    - snpStats (https://www.bioconductor.org/packages/release/bioc/html/snpStats.html, v3.6 or later)
+    - glmnet (https://www.jstatsoft.org/article/view/v033i01, v2.0-13 or later)
+    - plyr (https://cran.r-project.org/web/packages/plyr/index.html, v1.8.4 or later)
+    - dplyr (https://github.com/hadley/plyr, v0.7.4 or later)
+    - reshape2 (https://github.com/hadley/reshape, v1.4.3 or later)
+    - MASS (http://www.stats.ox.ac.uk/pub/MASS4/, v7.3-49 or later)
 
-- **plink**
+- **plink** (https://www.cog-genomics.org/plink2, v1.90 or later)
 
-- **gcta**
+- **gcta** (http://cnsgenomics.com/software/gcta/, v1.25.3 or later)
 
 ### Running the demo
 
