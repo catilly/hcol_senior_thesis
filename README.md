@@ -53,7 +53,7 @@ Before we begin, note that this demo requires
 
 - **plink** (https://www.cog-genomics.org/plink2, v1.90 or later)
 
-- **gcta** (http://cnsgenomics.com/software/gcta/, v1.25.3 or later)
+- **gcta** (http://cnsgenomics.com/software/gcta, v1.25.3 or later)
 
 ### Running the demo
 
