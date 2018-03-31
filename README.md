@@ -61,7 +61,7 @@ After downloading all of the requisite software, move into this directory and ru
 ```
 sh run_all.sh [R_LOC] [PLINK_LOC] [GCTA_LOC]
 ```
-from the Unix command line. R_LOC, PLINK_LOC, and GCTA_LOC should be the paths to R, plink, and gcta respectively in your system. This script will run all eight methods and output files into the empty out directory. It can take a while, so you may want to split up the script and parallelize it on a computing cluster, or simply comment out the methods that are not of interest.
+from the Unix command line. R_LOC, PLINK_LOC, and GCTA_LOC should be the paths to R, plink, and gcta respectively in your system. This script will run all eight methods and output files into the empty out directory. It can take a while, so you may want to split up the script and parallelize it on a computing cluster, or modify the script so that it only runs a subset of the methods.
 
 Once this script is finished running, the output files can be concatenated and processed by typing
 ```
